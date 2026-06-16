@@ -1,0 +1,109 @@
+html, body{font-size: 14px;}
+
+
+.hmebnrbg {
+    width: 100%;
+    height: 100vh;
+    min-height: 100vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    background-image: linear-gradient(to top, #fff, #fff);
+}
+
+.frmbgclr {
+    background: #474198;
+    height: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 2rem 2.5rem;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #474198, #474198);
+    border: 2px solid #fff;
+    box-shadow: 0px 10px 15px rgb(0 0 0 / 30%);
+}
+
+.lgntxthd{color:#fff;}
+
+.logoimg img{ width:250px; }
+
+.frmlable{font-size: 18px; color:#fff;}
+
+.frminpt .form-control { height:40px; }
+
+.btn.sbmtbtn{
+    font-size:18px;
+    padding: 3px 15px;
+}
+
+textarea.formwdth {
+    border-radius:10px;
+    font-size:16px;
+    color:#000;
+    box-shadow: 0px 5px 10px rgb(0 0 0 / 50%);
+    border:2px solid #156082;
+}
+
+.vdefrme{
+    background: #156082;
+    height: 100%;
+    width:100%;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 0.5rem 10px;
+    border-radius: 10px;
+    border:2px solid #000;
+    
+}
+
+.rqstbtn {
+    font-size: 18px;
+    background: #156082;
+    border: 2px solid #000;
+}
+.btn.rqstbtn:hover,.btn.rqstbtn:focus{background: #156082; border: 2px solid #000;}
+
+.btn.btnmnu{
+    color:#fff;
+    border:none;
+    font-size:16px;
+}
+
+ul.dropdown-menu.show::after {
+    display: inline-table;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: 0;
+    border-right: 1em solid transparent;
+    border-top: 1em solid #fff;
+    border-left: 1em solid transparent;
+    position: absolute;
+    bottom: -8px;
+    left: 25%;
+    right: 0;
+}
+
+.btnmnu img{width:auto;margin-right:5px;display: inline-table;height: 25px;}
+
+.navftr .dropdown-item.active, .navftr .dropdown-item:hover, .navftr .dropdown-item:active{
+    background: none !important;
+    color: #6e7bf8;
+}
+
+@media only screen and (max-width: 767px) {
+    .frmbgclr { padding: 1.5rem 1.5rem;  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width:824px) and (orientation: landscape) {
+
+
+}
+
+@media only screen and (min-device-width:825px) and (max-device-width:915px) and (orientation: landscape) {
+  
+}
+
+@media only screen and (min-device-width:1199px) {
+    
+}
